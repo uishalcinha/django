@@ -1,4 +1,50 @@
-#CRUD APPLICATION - CREATE READ UPDATE DELETE
+# Django CRUD Project
+
+This is a simple Django web application that allows users to perform CRUD (Create, Read, Update, Delete) operations on data stored in a database. The application includes basic authentication and authorization features, as well as pagination and searching.
+
+## Getting Started
+
+To get started with the project, you should first clone the repository:
+
+```
+git clone https://github.com/username/django-crud-project.git
+```
+
+Next, create a virtual environment and install the required dependencies:
+
+```
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+
+Finally, run the development server:
+
+```
+python manage.py runserver
+```
+
+You should now be able to access the application by navigating to http://localhost:8000/ in your web browser.
+
+## Usage
+
+The application includes four main views, corresponding to the four CRUD operations:
+
+- Create: `/create`
+- Read: `/list`
+- Update: `/update/<int:pk>`
+- Delete: `/delete/<int:pk>`
+
+The application also includes a search view at `/search`, which allows users to search for data based on specific criteria.
+
+## Contributing
+
+If you'd like to contribute to the project, you can submit a pull request with your changes. Please make sure to follow the existing coding style and include tests for any new features.
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
 
 CREATE
 ![v1](https://user-images.githubusercontent.com/84958938/235328429-2a247f65-98c2-4f66-b8d4-fed55ffc773e.png)
