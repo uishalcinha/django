@@ -7,7 +7,7 @@ This is a simple Django web application that allows users to perform CRUD (Creat
 To get started with the project, you should first clone the repository:
 
 ```
-git clone https://github.com/uishalcinha/django_project2_CRUD_operation/tree/master/django_crud
+git clone https://github.com/uishalcinha/django_project2_CRUD_operation.git
 ```
 
 Next, create a virtual environment and install the required dependencies:
