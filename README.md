@@ -1,6 +1,6 @@
 # Django CRUD Project
 
-This is a simple Django web application that allows users to perform CRUD (Create, Read, Update, Delete) operations on data stored in a database. The application includes basic authentication and authorization features, as well as pagination and searching.
+This is a simple Django web application that allows users to perform CRUD (Create, Read, Update, Delete) operations on data stored in a database. The application includes basic authentication and authorization features, as well as pagination .
 
 ## Getting Started
 
